@@ -1,0 +1,296 @@
+/*IMPORTA FUENTE DE GOOGLE FONTS*/
+.inter-uniquifier {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+/*ESTABLECE FUENTE*/
+body 
+{
+    font-family: "Inter", sans-serif;
+}
+
+header
+{
+    background-color: rgb(12, 95, 220);
+    color: white;
+    font-style: italic;
+    font-weight: 100;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    display: block;
+    position: sticky;
+    top: -78px;
+    z-index: 10;
+}
+
+#title
+{
+    display: block;
+    width: 100%;
+}
+
+#titlesub
+{
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+#title img
+{
+    object-fit: contain;
+}
+
+#text
+{
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+}
+nav
+{
+    margin-top: 0px;
+}
+
+.carousel-item
+{
+    height: 531.5px;
+    width: fit-content;
+    display: block;
+}
+
+#carousel1
+{
+    height: auto;
+    box-sizing: content-box;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-style: italic;
+}
+
+#carousel-inner
+{
+    background-color: rgb(228, 228, 228);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+@media (max-width: 768px)
+{
+    .carousel-inner
+    {
+        height: 200px;
+    }
+}
+
+#ofertass-div
+{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    margin-top: 35px;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(106, 165, 255);
+    width: max-content;
+    padding-left: 12.5px;
+    padding-right: 12.5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    font-style: italic;
+}
+
+.grilla-ofertas
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+}
+
+@media(max-width: 768px) 
+{
+    .grilla-ofertas
+    {
+    grid-template-columns: repeat(2, 1fr) !important;
+    grid-template-rows: repeat(2, 1fr) !important;
+    }
+}
+
+.grilla-ventas
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+    margin-bottom: 30px;
+}
+
+.grilla-elemento
+{
+    padding: 10px;
+}
+
+.grilla-elemento h5
+
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2px;
+}
+
+.grilla-elemento h6
+{
+    display: flex;
+    justify-content: center;
+    font-size:18px;
+}
+
+.grilla-elemento img
+
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 4px;
+}
+
+.grilla-elemento p
+{
+    color: rgb(70, 70, 70);
+    text-decoration: line-through;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+}
+
+
+#elemento1
+{
+    display: grid;
+    grid-area: 1 / 1 / 2 / 2;
+    background-color: rgb(236, 236, 236);
+    border-radius: 8.5px;
+}
+
+#elemento1 img
+{
+    width: 100%;
+    height: 85%;
+}
+
+#elemento2
+{
+    display: grid;
+    grid-area: 1 / 2 / 2 / 3;
+    background-color: rgb(236, 236, 236);
+    border-radius: 8.5px;
+}
+
+#elemento3
+{
+    display: grid;
+    grid-area: 1 / 3 / 2 / 4;
+    background-color: rgb(214, 214, 214);
+    border-radius: 8.5px;
+}
+
+@media(max-width: 768px)
+{
+    #elemento3
+    {
+        grid-area: 2 / 1 / 3 / 2 !important;
+    }
+
+    #elemento6
+    {
+        grid-area: 2 / 1 / 3 / 2 !important;
+    }
+}
+
+#superventas-div
+{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    margin-top: 35px;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(106, 165, 255);
+    width: max-content;
+    padding-left: 12.5px;
+    padding-right: 12.5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    font-style: italic;
+}
+
+#elemento4
+{
+    display: grid;
+    grid-area: 1 / 1 / 2 / 2;
+    background-color: rgb(236, 236, 236);
+    border-radius: 8.5px
+}
+
+#elemento5
+{
+    display: grid;
+    grid-area: 1 / 2 / 2 / 3;
+    background-color: rgb(214, 214, 214);
+    border-radius: 8.5px
+}
+
+#elemento6
+{
+    display: grid;
+    grid-area: 1 / 3 / 2 / 4;
+    background-color: rgb(214, 214, 214);
+    border-radius: 8.5px
+}
+
+@media (max-width: 768px)
+{
+    .grilla-ofertas
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+}
+
+.grilla-ventas
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+    margin-bottom: 30px;
+}
+}
+
+footer
+{
+    background-color: rgb(106, 165, 255);
+    margin-bottom: 0px;
+    padding-top: 8px;
+    padding-bottom: 30px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
